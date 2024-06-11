@@ -22,5 +22,5 @@ while True:
   print(separate_word.__doc__)
   break
  else:#type is not a string 
-   user_word= input("Envalid value ,Enter a string word: ") 
+   user_word= input("Invalid value ,Enter a string word: ") 
  
