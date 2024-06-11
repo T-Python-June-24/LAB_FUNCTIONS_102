@@ -1,6 +1,13 @@
 def find_primes(start:int, end:int):
     '''
     Takes two positive integers and prints all prime numbers between them
+
+    Args:
+        start (int): The beginning of the sequence.
+        end (int): The end of the sequence.
+    
+    Returns:
+        None: Prints the prime numbers found between start and end.
     '''
     # Check if the integers are positive and skip the integer 1,
     # since it's known that 1 is not a prime number.
